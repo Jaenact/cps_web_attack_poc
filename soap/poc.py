@@ -14,14 +14,14 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # 파일 경로 리스트 (민감 정보 위주)
 paths = [
-    "/home",
-    "/home/bteam",
-    "/home/bteam/Desktop/",
-    "/home/bteam/Desktop/_CPSS_ICS_Server/",
-    "/home/bteam/Desktop/_CPSS_ICS_Server/ics-hmi-simulator/",
-    "/home/bteam/Desktop/_CPSS_ICS_Server/ics-hmi-simulator/app/",
-    "/home/bteam/Desktop/_CPSS_ICS_Server/ics-hmi-simulator/app/routes.py",
-    "/home/bteam/Desktop/_CPSS_ICS_Server/ics-hmi-simulator/app/__init__.py"
+    "/soap/home",
+    "/soap/home/bteam",
+    "/soap/home/bteam/Desktop/",
+    "/soap/home/bteam/Desktop/_CPSS_ICS_Server/",
+    "/soap/home/bteam/Desktop/_CPSS_ICS_Server/ics-hmi-simulator/",
+    "/soap/home/bteam/Desktop/_CPSS_ICS_Server/ics-hmi-simulator/app/",
+    "/soap/home/bteam/Desktop/_CPSS_ICS_Server/ics-hmi-simulator/app/routes.py",
+    "/soap/home/bteam/Desktop/_CPSS_ICS_Server/ics-hmi-simulator/app/__init__.py"
 ]
 
 
