@@ -1,2 +1,5 @@
 # 민감 정보 제외
 config.py
+
+# pycache 제외
+/__pycache__
