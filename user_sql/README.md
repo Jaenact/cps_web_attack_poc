@@ -18,6 +18,7 @@
   - 아래와 같이 2개의 사용자 정보가 노출됨
     - ID: 1, Username: soap, Password: soap, Role: guest
     - ID: 2, Username: aa, Password: aa, Role: guest
+      
       <img width="442" height="104" alt="image" src="https://github.com/user-attachments/assets/ff0d2001-a9d9-4373-b8f4-75db582d2b6e" />
 
 
