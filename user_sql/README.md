@@ -3,6 +3,7 @@
 ## 1. 실험 개요
 - 본 실험은 간단한 SQLite 기반 웹 환경에서 SQL Injection(이하 SQLi) 및 XSS(크로스사이트 스크립팅) 결합 공격의 가능성과 한계를 검증하기 위해 진행되었습니다.
 - 주요 목표는 SQLi를 통해 DB 쿼리를 우회하거나, XSS 페이로드를 삽입하여 클라이언트 측 코드 실행을 유도하는 것입니다.
+<img width="396" height="88" alt="image" src="https://github.com/user-attachments/assets/f437b391-9f5d-43d3-947f-ecdc5abeaf6b" />
 
 ---
 
@@ -17,6 +18,8 @@
   - 아래와 같이 2개의 사용자 정보가 노출됨
     - ID: 1, Username: soap, Password: soap, Role: guest
     - ID: 2, Username: aa, Password: aa, Role: guest
+      <img width="442" height="104" alt="image" src="https://github.com/user-attachments/assets/ff0d2001-a9d9-4373-b8f4-75db582d2b6e" />
+
 
 ### 2-2. 에러 기반 SQLi 시도
 - **입력값:**
